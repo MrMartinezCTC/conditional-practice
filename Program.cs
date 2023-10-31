@@ -1,71 +1,26 @@
-using System;
 
-class Program
+public class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
-        CheckForPositiveNegativeZero();
-        Console.WriteLine("----------------------------------------------");
+        FahrenheitToCelsius(68); // Test FahrenheitToCelsuis Function with a random value
 
-        // Uncomment the two lines below to test your "FindMinimum" code
-        // FindMininum();
-        // Console.WriteLine("----------------------------------------------");
-        
-        // Uncomment the two lines below to test your "FindMaximum" code
-        // FindMaximum();
-        // Console.WriteLine("----------------------------------------------");
-        
-        // Uncomment the two lines below to test your "IsDivisibleBy5" code
-        // IsDivisibleBy5();
-        // Console.WriteLine("----------------------------------------------");
-        
-        // Uncomment the two lines below to test your "IsEven" code
-        // IsEven();
-        // Console.WriteLine("----------------------------------------------");
-        
-        // Uncomment the line below to test your "CharacterIsAVowel" code
-        // CharacterIsAVowel();
-    }
-
-    public static void CheckForPositiveNegativeZero()
-    {
-        // Write the code for your "CheckForPositiveNegativeZero" assignment below
+        // Test your functions by calling them below:
+        // CheckForPositiveNegativeZero(-1); // This should output: "Your number is negative"
+        // CheckForPositiveNegativeZero(0); // This should output: "Your number is zero"
+        // CheckForPositiveNegativeZero(1); // This should output: "Your number is positive"
+        // ...
+        // ...
+        // DisplayDayOfWeek(4); // This should output: "Thursday"
 
     }
 
-    public static void FindMininum()
+    public static void FahrenheitToCelsius(double fahrenheit)
     {
-        // Write the code for your "FindMininum" assignment below
-
+        double celsiusDegree = (fahrenheit - 32) * 5/9; 
+        Console.WriteLine($"{fahrenheit} degrees Fahrenheit is {celsiusDegree} degrees Celsius.");
     }
 
-    public static void FindMaximum()
-    {
-        // Write the code for your "FindMaximum" assignment below
+    // Define your functions below:
 
-    }
-
-    public static void IsDivisibleBy5()
-    {
-        // Write the code for your "IsDivisibleBy5" assignment below
-
-    }
-
-    public static void IsEven()
-    {
-        // Write the code for your "IsEven" assignment below
-
-    }
-
-    public static void CharacterIsAVowel()
-    {
-        // Write the code for your "CharacterIsAVowel" assignment below
-
-    }
-
-    public static void PrintDayOfTheWeek()
-    {
-        // Write the code for your "PrintDayOfTheWeek" assignment below
-        
-    }
 }
