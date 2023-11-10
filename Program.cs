@@ -3,7 +3,7 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        FahrenheitToCelsius(68); // Test FahrenheitToCelsuis Function with a random value
+        FahrenheitToCelsius(68); // Test FahrenheitToCelsius Function with a random value
 
         // Test your functions by calling them below:
         // CheckForPositiveNegativeZero(-1); // This should output: "Your number is negative"
@@ -11,7 +11,7 @@ public class Program
         // CheckForPositiveNegativeZero(1); // This should output: "Your number is positive"
         // ...
         // ...
-        // DisplayDayOfWeek(4); // This should output: "Thursday"
+        // DisplayDayOfWeek(0); // This should output: "Thursday"
 
     }
 
